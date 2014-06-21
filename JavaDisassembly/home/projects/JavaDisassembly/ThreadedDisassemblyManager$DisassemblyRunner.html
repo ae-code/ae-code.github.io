@@ -1,0 +1,1546 @@
+<!doctype html>
+<html>
+	<head>
+   		<link rel="stylesheet" type="text/css" href="/home/albert/temp/jd/static/style.css">
+   		<script src="/home/albert/temp/jd/static/jquery.js"></script>
+   		<script src="/home/albert/temp/jd/static/script.js"></script>
+   		
+ 		<title>home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.class</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="class_header">home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.class</h1>
+			<table class="stats_table">
+				<tr><td class="stats_header">Last Modified:</td><td>Jun 21, 2014</td></tr>
+				<tr><td class="stats_header">Size:</td><td>2964 bytes</td></tr>
+				<tr><td class="stats_header">MD5 Hash:</td><td>b566c09d2826ab54372ace881e686ccb</td></tr>
+				<tr><td class="stats_header">Source:</td><td>ThreadedDisassemblyManager.java</td></tr>
+			</table>
+			<br>
+			<div class="expandable">
+				<h3><span class="expand_collapse">-</span>&nbsp;&nbsp;Constant Pool</h3>
+			</div>
+			<table class="constants_table">
+				<tr>
+					<th class="constant_index_header">#</th>
+					<th class="constant_type_header">Type</th>
+					<th class="constant_value_header">Value</th>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">1</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner"><span class="reference">#2</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">2</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">3</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="java/lang/Object"><span class="reference">#4</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">4</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">java/lang/Object</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">5</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="java/lang/Runnable"><span class="reference">#6</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">6</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">java/lang/Runnable</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">7</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">m_sClass</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">8</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Ljava/lang/String;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">9</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">m_iCurrent</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">10</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">I</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">11</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">m_iTotal</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">12</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">m_results</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">13</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Lhome/projects/JavaDisassembly/DisassemblyDataMap;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">14</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">this$0</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">15</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">16</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">&lt;init&gt;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">17</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyDataMap;II)V</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">18</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Code</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">19</td>
+					<td class="constant_type">Fieldref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;"><span class="reference">#1.#20</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">20</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;"><span class="reference">#14:#15</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">21</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="java/lang/Object.&quot;&lt;init&gt;&quot;:()V"><span class="reference">#3.#22</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">22</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="&quot;&lt;init&gt;&quot;:()V"><span class="reference">#16:#23</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">23</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">()V</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">24</td>
+					<td class="constant_type">Fieldref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.m_sClass:Ljava/lang/String;"><span class="reference">#1.#25</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">25</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="m_sClass:Ljava/lang/String;"><span class="reference">#7:#8</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">26</td>
+					<td class="constant_type">Fieldref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.m_results:Lhome/projects/JavaDisassembly/DisassemblyDataMap;"><span class="reference">#1.#27</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">27</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="m_results:Lhome/projects/JavaDisassembly/DisassemblyDataMap;"><span class="reference">#12:#13</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">28</td>
+					<td class="constant_type">Fieldref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.m_iCurrent:I"><span class="reference">#1.#29</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">29</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="m_iCurrent:I"><span class="reference">#9:#10</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">30</td>
+					<td class="constant_type">Fieldref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.m_iTotal:I"><span class="reference">#1.#31</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">31</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="m_iTotal:I"><span class="reference">#11:#10</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">32</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">LineNumberTable</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">33</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">LocalVariableTable</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">34</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">this</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">35</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">36</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">sClass</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">37</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">results</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">38</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">iCurrent</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">39</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">iTotal</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">40</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">run</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">41</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="java/lang/StringBuilder"><span class="reference">#42</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">42</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">java/lang/StringBuilder</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">43</td>
+					<td class="constant_type">String</td>
+					<td class="constant_value" title="Starting Disassembly "><span class="reference">#44</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">44</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Starting</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">45</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="java/lang/StringBuilder.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;)V"><span class="reference">#41.#46</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">46</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="&quot;&lt;init&gt;&quot;:(Ljava/lang/String;)V"><span class="reference">#16:#47</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">47</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Ljava/lang/String;)V</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">48</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;"><span class="reference">#41.#49</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">49</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="append:(I)Ljava/lang/StringBuilder;"><span class="reference">#50:#51</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">50</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">append</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">51</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(I)Ljava/lang/StringBuilder;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">52</td>
+					<td class="constant_type">String</td>
+					<td class="constant_value" title="of "><span class="reference">#53</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">53</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">of</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">54</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;"><span class="reference">#41.#55</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">55</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="append:(Ljava/lang/String;)Ljava/lang/StringBuilder;"><span class="reference">#50:#56</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">56</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Ljava/lang/String;)Ljava/lang/StringBuilder;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">57</td>
+					<td class="constant_type">String</td>
+					<td class="constant_value" title=": "><span class="reference">#58</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">58</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">:</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">59</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="java/lang/StringBuilder.toString:()Ljava/lang/String;"><span class="reference">#41.#60</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">60</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="toString:()Ljava/lang/String;"><span class="reference">#61:#62</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">61</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">toString</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">62</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">()Ljava/lang/String;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">63</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager.updateStatusSync:(Ljava/lang/String;)V"><span class="reference">#64.#66</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">64</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager"><span class="reference">#65</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">65</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">home/projects/JavaDisassembly/ThreadedDisassemblyManager</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">66</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="updateStatusSync:(Ljava/lang/String;)V"><span class="reference">#67:#47</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">67</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">updateStatusSync</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">68</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager.getDisassembler:()Lhome/projects/JavaDisassembly/Disassembler;"><span class="reference">#64.#69</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">69</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="getDisassembler:()Lhome/projects/JavaDisassembly/Disassembler;"><span class="reference">#70:#71</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">70</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">getDisassembler</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">71</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">()Lhome/projects/JavaDisassembly/Disassembler;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">72</td>
+					<td class="constant_type">Fieldref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager.m_config:Lhome/projects/JavaDisassembly/Config;"><span class="reference">#64.#73</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">73</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="m_config:Lhome/projects/JavaDisassembly/Config;"><span class="reference">#74:#75</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">74</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">m_config</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">75</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Lhome/projects/JavaDisassembly/Config;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">76</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/Config.getSourceDirectory:()Ljava/lang/String;"><span class="reference">#77.#79</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">77</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/Config"><span class="reference">#78</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">78</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">home/projects/JavaDisassembly/Config</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">79</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="getSourceDirectory:()Ljava/lang/String;"><span class="reference">#80:#62</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">80</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">getSourceDirectory</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">81</td>
+					<td class="constant_type">InterfaceMethodref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/Disassembler.invoke:(Ljava/lang/String;Ljava/lang/String;)Lhome/projects/JavaDisassembly/DisassemblyData;"><span class="reference">#82.#84</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">82</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/Disassembler"><span class="reference">#83</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">83</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">home/projects/JavaDisassembly/Disassembler</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">84</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="invoke:(Ljava/lang/String;Ljava/lang/String;)Lhome/projects/JavaDisassembly/DisassemblyData;"><span class="reference">#85:#86</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">85</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">invoke</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">86</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Ljava/lang/String;Ljava/lang/String;)Lhome/projects/JavaDisassembly/DisassemblyData;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">87</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/DisassemblyDataMap.setResult:(Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyData;)I"><span class="reference">#88.#90</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">88</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/DisassemblyDataMap"><span class="reference">#89</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">89</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">home/projects/JavaDisassembly/DisassemblyDataMap</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">90</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="setResult:(Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyData;)I"><span class="reference">#91:#92</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">91</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">setResult</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">92</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyData;)I</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">93</td>
+					<td class="constant_type">String</td>
+					<td class="constant_value" title="Completed Disassembly "><span class="reference">#94</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">94</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Completed</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">95</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/DisassemblerException"><span class="reference">#96</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">96</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">home/projects/JavaDisassembly/DisassemblerException</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">97</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$0:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V"><span class="reference">#64.#98</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">98</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="access$0:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V"><span class="reference">#99:#100</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">99</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">access$0</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">100</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">101</td>
+					<td class="constant_type">String</td>
+					<td class="constant_value" title="Error"><span class="reference">#102</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">102</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Error</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">103</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/DisassemblerException.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;Ljava/lang/Exception;)V"><span class="reference">#95.#104</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">104</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="&quot;&lt;init&gt;&quot;:(Ljava/lang/String;Ljava/lang/Exception;)V"><span class="reference">#16:#105</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">105</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Ljava/lang/String;Ljava/lang/Exception;)V</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">106</td>
+					<td class="constant_type">Methodref</td>
+					<td class="constant_value" title="home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$1:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;)Ljava/util/concurrent/ExecutorService;"><span class="reference">#64.#107</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">107</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="access$1:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;)Ljava/util/concurrent/ExecutorService;"><span class="reference">#108:#109</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">108</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">access$1</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">109</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;)Ljava/util/concurrent/ExecutorService;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">110</td>
+					<td class="constant_type">InterfaceMethodref</td>
+					<td class="constant_value" title="java/util/concurrent/ExecutorService.shutdownNow:()Ljava/util/List;"><span class="reference">#111.#113</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">111</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="java/util/concurrent/ExecutorService"><span class="reference">#112</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">112</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">java/util/concurrent/ExecutorService</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">113</td>
+					<td class="constant_type">NameAndType</td>
+					<td class="constant_value" title="shutdownNow:()Ljava/util/List;"><span class="reference">#114:#115</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">114</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">shutdownNow</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">115</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">()Ljava/util/List;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">116</td>
+					<td class="constant_type">Class</td>
+					<td class="constant_value" title="java/lang/Exception"><span class="reference">#117</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">117</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">java/lang/Exception</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">118</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">disassembler</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">119</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Lhome/projects/JavaDisassembly/Disassembler;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">120</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">data</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">121</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Lhome/projects/JavaDisassembly/DisassemblyData;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">122</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">numResults</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">123</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">e</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">124</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">Ljava/lang/Exception;</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">125</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">StackMapTable</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">126</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">SourceFile</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">127</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">ThreadedDisassemblyManager.java</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">128</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">InnerClasses</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">129</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">DisassemblyRunner</span></td>
+				</tr>
+			</table>
+			<br>
+			<div class="expandable">
+				<h3><span class="expand_collapse">-</span>&nbsp;&nbsp;Members</h3>
+			</div>
+			<div>
+				<div class="function_header">final home.projects.JavaDisassembly.ThreadedDisassemblyManager this$0;</div>
+			</div>
+			<br>
+			<div class="expandable">
+				<h3><span class="expand_collapse">-</span>&nbsp;&nbsp;Methods</h3>
+			</div>
+			<div>
+				<a name="funcs"></a>
+				<ul class="listing_list">
+					<li class="listing"><a href="#f0">public home.projects.JavaDisassembly.ThreadedDisassemblyManager$DisassemblyRunner(home.projects.JavaDisassembly.ThreadedDisassemblyManager, java.lang.String, home.projects.JavaDisassembly.DisassemblyDataMap, int, int);</a></li>
+					<li class="listing"><a href="#f1">public void run();</a></li>
+				</ul>
+				<br>
+				<div class="function">
+					<a name="f0"></a>
+					<div class="function_header">public home.projects.JavaDisassembly.ThreadedDisassemblyManager$DisassemblyRunner(home.projects.JavaDisassembly.ThreadedDisassemblyManager, java.lang.String, home.projects.JavaDisassembly.DisassemblyDataMap, int, int);</div>
+					<table class="code">
+						<tr>
+							<td>0</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>aload_1</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>putfield</td>
+							<td title=" Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;" class="reference">     #19                </td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>invokespecial</td>
+							<td title=" Method java/lang/Object.&quot;&lt;init&gt;&quot;:()V" class="reference">#21                </td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>aload_2</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>putfield</td>
+							<td title=" Field m_sClass:Ljava/lang/String;" class="reference">     #24                </td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td>aload_3</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td>putfield</td>
+							<td title=" Field m_results:Lhome/projects/JavaDisassembly/DisassemblyDataMap;" class="reference">     #26                </td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td>iload</td>
+							<td >       </td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td>putfield</td>
+							<td title=" Field m_iCurrent:I" class="reference">     #28                </td>
+						</tr>
+						<tr>
+							<td>25</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>26</td>
+							<td>iload</td>
+							<td >       </td>
+						</tr>
+						<tr>
+							<td>28</td>
+							<td>putfield</td>
+							<td title=" Field m_iTotal:I" class="reference">     #30                </td>
+						</tr>
+						<tr>
+							<td>31</td>
+							<td>return</td>
+							<td >      </td>
+						</tr>
+					</table>
+					<a class="back_link" href="#funcs">&#8593; Back to List</a>
+				</div>
+				<br>
+				<div class="function">
+					<a name="f1"></a>
+					<div class="function_header">public void run();</div>
+					<table class="code">
+						<tr>
+							<td>0</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>getfield</td>
+							<td title=" Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;" class="reference">     #19                </td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>new</td>
+							<td title=" class java/lang/StringBuilder" class="reference">          #41                </td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>dup</td>
+							<td >         </td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>ldc</td>
+							<td title=" String Starting Disassembly " class="reference">          #43                </td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>invokespecial</td>
+							<td title=" Method java/lang/StringBuilder.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;)V" class="reference">#45                </td>
+						</tr>
+						<tr>
+							<td>13</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>getfield</td>
+							<td title=" Field m_iCurrent:I" class="reference">     #28                </td>
+						</tr>
+						<tr>
+							<td>17</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;" class="reference">#48                </td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td>ldc</td>
+							<td title=" String  of " class="reference">          #52                </td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;" class="reference">#54                </td>
+						</tr>
+						<tr>
+							<td>25</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>26</td>
+							<td>getfield</td>
+							<td title=" Field m_iTotal:I" class="reference">     #30                </td>
+						</tr>
+						<tr>
+							<td>29</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;" class="reference">#48                </td>
+						</tr>
+						<tr>
+							<td>32</td>
+							<td>ldc</td>
+							<td title=" String : " class="reference">          #57                </td>
+						</tr>
+						<tr>
+							<td>34</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;" class="reference">#54                </td>
+						</tr>
+						<tr>
+							<td>37</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>38</td>
+							<td>getfield</td>
+							<td title=" Field m_sClass:Ljava/lang/String;" class="reference">     #24                </td>
+						</tr>
+						<tr>
+							<td>41</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;" class="reference">#54                </td>
+						</tr>
+						<tr>
+							<td>44</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.toString:()Ljava/lang/String;" class="reference">#59                </td>
+						</tr>
+						<tr>
+							<td>47</td>
+							<td>invokevirtual</td>
+							<td title=" Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.updateStatusSync:(Ljava/lang/String;)V" class="reference">#63                </td>
+						</tr>
+						<tr>
+							<td>50</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>51</td>
+							<td>getfield</td>
+							<td title=" Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;" class="reference">     #19                </td>
+						</tr>
+						<tr>
+							<td>54</td>
+							<td>invokevirtual</td>
+							<td title=" Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.getDisassembler:()Lhome/projects/JavaDisassembly/Disassembler;" class="reference">#68                </td>
+						</tr>
+						<tr>
+							<td>57</td>
+							<td>astore_1</td>
+							<td >    </td>
+						</tr>
+						<tr>
+							<td>58</td>
+							<td>aload_1</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>59</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>60</td>
+							<td>getfield</td>
+							<td title=" Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;" class="reference">     #19                </td>
+						</tr>
+						<tr>
+							<td>63</td>
+							<td>getfield</td>
+							<td title=" Field home/projects/JavaDisassembly/ThreadedDisassemblyManager.m_config:Lhome/projects/JavaDisassembly/Config;" class="reference">     #72                </td>
+						</tr>
+						<tr>
+							<td>66</td>
+							<td>invokevirtual</td>
+							<td title=" Method home/projects/JavaDisassembly/Config.getSourceDirectory:()Ljava/lang/String;" class="reference">#76                </td>
+						</tr>
+						<tr>
+							<td>69</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>70</td>
+							<td>getfield</td>
+							<td title=" Field m_sClass:Ljava/lang/String;" class="reference">     #24                </td>
+						</tr>
+						<tr>
+							<td>73</td>
+							<td>invokeinterface</td>
+							<td title=" InterfaceMethod home/projects/JavaDisassembly/Disassembler.invoke:(Ljava/lang/String;Ljava/lang/String;)Lhome/projects/JavaDisassembly/DisassemblyData;" class="reference">#81,  3          </td>
+						</tr>
+						<tr>
+							<td>78</td>
+							<td>astore_2</td>
+							<td >    </td>
+						</tr>
+						<tr>
+							<td>79</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>80</td>
+							<td>getfield</td>
+							<td title=" Field m_results:Lhome/projects/JavaDisassembly/DisassemblyDataMap;" class="reference">     #26                </td>
+						</tr>
+						<tr>
+							<td>83</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>84</td>
+							<td>getfield</td>
+							<td title=" Field m_sClass:Ljava/lang/String;" class="reference">     #24                </td>
+						</tr>
+						<tr>
+							<td>87</td>
+							<td>aload_2</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>88</td>
+							<td>invokevirtual</td>
+							<td title=" Method home/projects/JavaDisassembly/DisassemblyDataMap.setResult:(Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyData;)I" class="reference">#87                </td>
+						</tr>
+						<tr>
+							<td>91</td>
+							<td>istore_3</td>
+							<td >    </td>
+						</tr>
+						<tr>
+							<td>92</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>93</td>
+							<td>getfield</td>
+							<td title=" Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;" class="reference">     #19                </td>
+						</tr>
+						<tr>
+							<td>96</td>
+							<td>new</td>
+							<td title=" class java/lang/StringBuilder" class="reference">          #41                </td>
+						</tr>
+						<tr>
+							<td>99</td>
+							<td>dup</td>
+							<td >         </td>
+						</tr>
+						<tr>
+							<td>100</td>
+							<td>ldc</td>
+							<td title=" String Completed Disassembly " class="reference">          #93                </td>
+						</tr>
+						<tr>
+							<td>102</td>
+							<td>invokespecial</td>
+							<td title=" Method java/lang/StringBuilder.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;)V" class="reference">#45                </td>
+						</tr>
+						<tr>
+							<td>105</td>
+							<td>iload_3</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>106</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;" class="reference">#48                </td>
+						</tr>
+						<tr>
+							<td>109</td>
+							<td>ldc</td>
+							<td title=" String  of " class="reference">          #52                </td>
+						</tr>
+						<tr>
+							<td>111</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;" class="reference">#54                </td>
+						</tr>
+						<tr>
+							<td>114</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>115</td>
+							<td>getfield</td>
+							<td title=" Field m_iTotal:I" class="reference">     #30                </td>
+						</tr>
+						<tr>
+							<td>118</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;" class="reference">#48                </td>
+						</tr>
+						<tr>
+							<td>121</td>
+							<td>ldc</td>
+							<td title=" String : " class="reference">          #57                </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;" class="reference">#54                </td>
+						</tr>
+						<tr>
+							<td>126</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>127</td>
+							<td>getfield</td>
+							<td title=" Field m_sClass:Ljava/lang/String;" class="reference">     #24                </td>
+						</tr>
+						<tr>
+							<td>130</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;" class="reference">#54                </td>
+						</tr>
+						<tr>
+							<td>133</td>
+							<td>invokevirtual</td>
+							<td title=" Method java/lang/StringBuilder.toString:()Ljava/lang/String;" class="reference">#59                </td>
+						</tr>
+						<tr>
+							<td>136</td>
+							<td>invokevirtual</td>
+							<td title=" Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.updateStatusSync:(Ljava/lang/String;)V" class="reference">#63                </td>
+						</tr>
+						<tr>
+							<td>139</td>
+							<td>goto</td>
+							<td >        </td>
+						</tr>
+						<tr>
+							<td>142</td>
+							<td>astore_2</td>
+							<td >    </td>
+						</tr>
+						<tr>
+							<td>143</td>
+							<td>aload_2</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>144</td>
+							<td>instanceof</td>
+							<td title=" class home/projects/JavaDisassembly/DisassemblerException" class="reference">   #95                </td>
+						</tr>
+						<tr>
+							<td>147</td>
+							<td>ifeq</td>
+							<td >        </td>
+						</tr>
+						<tr>
+							<td>150</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>151</td>
+							<td>getfield</td>
+							<td title=" Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;" class="reference">     #19                </td>
+						</tr>
+						<tr>
+							<td>154</td>
+							<td>aload_2</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>155</td>
+							<td>checkcast</td>
+							<td title=" class home/projects/JavaDisassembly/DisassemblerException" class="reference">    #95                </td>
+						</tr>
+						<tr>
+							<td>158</td>
+							<td>invokestatic</td>
+							<td title=" Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$0:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V" class="reference"> #97                </td>
+						</tr>
+						<tr>
+							<td>161</td>
+							<td>goto</td>
+							<td >        </td>
+						</tr>
+						<tr>
+							<td>164</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>165</td>
+							<td>getfield</td>
+							<td title=" Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;" class="reference">     #19                </td>
+						</tr>
+						<tr>
+							<td>168</td>
+							<td>new</td>
+							<td title=" class home/projects/JavaDisassembly/DisassemblerException" class="reference">          #95                </td>
+						</tr>
+						<tr>
+							<td>171</td>
+							<td>dup</td>
+							<td >         </td>
+						</tr>
+						<tr>
+							<td>172</td>
+							<td>ldc</td>
+							<td title=" String Error" class="reference">          #101               </td>
+						</tr>
+						<tr>
+							<td>174</td>
+							<td>aload_2</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>175</td>
+							<td>invokespecial</td>
+							<td title=" Method home/projects/JavaDisassembly/DisassemblerException.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;Ljava/lang/Exception;)V" class="reference">#103               </td>
+						</tr>
+						<tr>
+							<td>178</td>
+							<td>invokestatic</td>
+							<td title=" Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$0:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V" class="reference"> #97                </td>
+						</tr>
+						<tr>
+							<td>181</td>
+							<td>aload_0</td>
+							<td >     </td>
+						</tr>
+						<tr>
+							<td>182</td>
+							<td>getfield</td>
+							<td title=" Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;" class="reference">     #19                </td>
+						</tr>
+						<tr>
+							<td>185</td>
+							<td>invokestatic</td>
+							<td title=" Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$1:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;)Ljava/util/concurrent/ExecutorService;" class="reference"> #106               </td>
+						</tr>
+						<tr>
+							<td>188</td>
+							<td>invokeinterface</td>
+							<td title=" InterfaceMethod java/util/concurrent/ExecutorService.shutdownNow:()Ljava/util/List;" class="reference">#110,  1         </td>
+						</tr>
+						<tr>
+							<td>193</td>
+							<td>pop</td>
+							<td >         </td>
+						</tr>
+						<tr>
+							<td>194</td>
+							<td>return</td>
+							<td >      </td>
+						</tr>
+					</table>
+					<a class="back_link" href="#funcs">&#8593; Back to List</a>
+				</div>
+				<br>
+			</div>
+			<br>
+			<div class="expandable">
+				<h3><span class="expand_collapse">+</span>&nbsp;&nbsp;Raw Disassembly</h3>
+			</div>
+			<pre>
+Classfile /home/albert/projects/JavaDisassembly/target/classes/home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.class	
+  Last modified Jun 21, 2014; size 2964 bytes	
+  MD5 checksum b566c09d2826ab54372ace881e686ccb	
+  Compiled from &quot;ThreadedDisassemblyManager.java&quot;	
+class home.projects.JavaDisassembly.ThreadedDisassemblyManager$DisassemblyRunner implements java.lang.Runnable	
+  SourceFile: &quot;ThreadedDisassemblyManager.java&quot;	
+  InnerClasses:	
+       #129= #1 of #64; //DisassemblyRunner=class home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner of class home/projects/JavaDisassembly/ThreadedDisassemblyManager	
+  minor version: 0	
+  major version: 51	
+  flags: ACC_SUPER	
+Constant pool:	
+    #1 = Class              #2            //  home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner	
+    #2 = Utf8               home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner	
+    #3 = Class              #4            //  java/lang/Object	
+    #4 = Utf8               java/lang/Object	
+    #5 = Class              #6            //  java/lang/Runnable	
+    #6 = Utf8               java/lang/Runnable	
+    #7 = Utf8               m_sClass	
+    #8 = Utf8               Ljava/lang/String;	
+    #9 = Utf8               m_iCurrent	
+   #10 = Utf8               I	
+   #11 = Utf8               m_iTotal	
+   #12 = Utf8               m_results	
+   #13 = Utf8               Lhome/projects/JavaDisassembly/DisassemblyDataMap;	
+   #14 = Utf8               this$0	
+   #15 = Utf8               Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+   #16 = Utf8               &lt;init&gt;	
+   #17 = Utf8               (Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyDataMap;II)V	
+   #18 = Utf8               Code	
+   #19 = Fieldref           #1.#20        //  home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+   #20 = NameAndType        #14:#15       //  this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+   #21 = Methodref          #3.#22        //  java/lang/Object.&quot;&lt;init&gt;&quot;:()V	
+   #22 = NameAndType        #16:#23       //  &quot;&lt;init&gt;&quot;:()V	
+   #23 = Utf8               ()V	
+   #24 = Fieldref           #1.#25        //  home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.m_sClass:Ljava/lang/String;	
+   #25 = NameAndType        #7:#8         //  m_sClass:Ljava/lang/String;	
+   #26 = Fieldref           #1.#27        //  home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.m_results:Lhome/projects/JavaDisassembly/DisassemblyDataMap;	
+   #27 = NameAndType        #12:#13       //  m_results:Lhome/projects/JavaDisassembly/DisassemblyDataMap;	
+   #28 = Fieldref           #1.#29        //  home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.m_iCurrent:I	
+   #29 = NameAndType        #9:#10        //  m_iCurrent:I	
+   #30 = Fieldref           #1.#31        //  home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner.m_iTotal:I	
+   #31 = NameAndType        #11:#10       //  m_iTotal:I	
+   #32 = Utf8               LineNumberTable	
+   #33 = Utf8               LocalVariableTable	
+   #34 = Utf8               this	
+   #35 = Utf8               Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner;	
+   #36 = Utf8               sClass	
+   #37 = Utf8               results	
+   #38 = Utf8               iCurrent	
+   #39 = Utf8               iTotal	
+   #40 = Utf8               run	
+   #41 = Class              #42           //  java/lang/StringBuilder	
+   #42 = Utf8               java/lang/StringBuilder	
+   #43 = String             #44           //  Starting Disassembly 	
+   #44 = Utf8               Starting Disassembly 	
+   #45 = Methodref          #41.#46       //  java/lang/StringBuilder.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;)V	
+   #46 = NameAndType        #16:#47       //  &quot;&lt;init&gt;&quot;:(Ljava/lang/String;)V	
+   #47 = Utf8               (Ljava/lang/String;)V	
+   #48 = Methodref          #41.#49       //  java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;	
+   #49 = NameAndType        #50:#51       //  append:(I)Ljava/lang/StringBuilder;	
+   #50 = Utf8               append	
+   #51 = Utf8               (I)Ljava/lang/StringBuilder;	
+   #52 = String             #53           //   of 	
+   #53 = Utf8                of 	
+   #54 = Methodref          #41.#55       //  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;	
+   #55 = NameAndType        #50:#56       //  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;	
+   #56 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;	
+   #57 = String             #58           //  : 	
+   #58 = Utf8               : 	
+   #59 = Methodref          #41.#60       //  java/lang/StringBuilder.toString:()Ljava/lang/String;	
+   #60 = NameAndType        #61:#62       //  toString:()Ljava/lang/String;	
+   #61 = Utf8               toString	
+   #62 = Utf8               ()Ljava/lang/String;	
+   #63 = Methodref          #64.#66       //  home/projects/JavaDisassembly/ThreadedDisassemblyManager.updateStatusSync:(Ljava/lang/String;)V	
+   #64 = Class              #65           //  home/projects/JavaDisassembly/ThreadedDisassemblyManager	
+   #65 = Utf8               home/projects/JavaDisassembly/ThreadedDisassemblyManager	
+   #66 = NameAndType        #67:#47       //  updateStatusSync:(Ljava/lang/String;)V	
+   #67 = Utf8               updateStatusSync	
+   #68 = Methodref          #64.#69       //  home/projects/JavaDisassembly/ThreadedDisassemblyManager.getDisassembler:()Lhome/projects/JavaDisassembly/Disassembler;	
+   #69 = NameAndType        #70:#71       //  getDisassembler:()Lhome/projects/JavaDisassembly/Disassembler;	
+   #70 = Utf8               getDisassembler	
+   #71 = Utf8               ()Lhome/projects/JavaDisassembly/Disassembler;	
+   #72 = Fieldref           #64.#73       //  home/projects/JavaDisassembly/ThreadedDisassemblyManager.m_config:Lhome/projects/JavaDisassembly/Config;	
+   #73 = NameAndType        #74:#75       //  m_config:Lhome/projects/JavaDisassembly/Config;	
+   #74 = Utf8               m_config	
+   #75 = Utf8               Lhome/projects/JavaDisassembly/Config;	
+   #76 = Methodref          #77.#79       //  home/projects/JavaDisassembly/Config.getSourceDirectory:()Ljava/lang/String;	
+   #77 = Class              #78           //  home/projects/JavaDisassembly/Config	
+   #78 = Utf8               home/projects/JavaDisassembly/Config	
+   #79 = NameAndType        #80:#62       //  getSourceDirectory:()Ljava/lang/String;	
+   #80 = Utf8               getSourceDirectory	
+   #81 = InterfaceMethodref #82.#84       //  home/projects/JavaDisassembly/Disassembler.invoke:(Ljava/lang/String;Ljava/lang/String;)Lhome/projects/JavaDisassembly/DisassemblyData;	
+   #82 = Class              #83           //  home/projects/JavaDisassembly/Disassembler	
+   #83 = Utf8               home/projects/JavaDisassembly/Disassembler	
+   #84 = NameAndType        #85:#86       //  invoke:(Ljava/lang/String;Ljava/lang/String;)Lhome/projects/JavaDisassembly/DisassemblyData;	
+   #85 = Utf8               invoke	
+   #86 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Lhome/projects/JavaDisassembly/DisassemblyData;	
+   #87 = Methodref          #88.#90       //  home/projects/JavaDisassembly/DisassemblyDataMap.setResult:(Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyData;)I	
+   #88 = Class              #89           //  home/projects/JavaDisassembly/DisassemblyDataMap	
+   #89 = Utf8               home/projects/JavaDisassembly/DisassemblyDataMap	
+   #90 = NameAndType        #91:#92       //  setResult:(Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyData;)I	
+   #91 = Utf8               setResult	
+   #92 = Utf8               (Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyData;)I	
+   #93 = String             #94           //  Completed Disassembly 	
+   #94 = Utf8               Completed Disassembly 	
+   #95 = Class              #96           //  home/projects/JavaDisassembly/DisassemblerException	
+   #96 = Utf8               home/projects/JavaDisassembly/DisassemblerException	
+   #97 = Methodref          #64.#98       //  home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$0:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V	
+   #98 = NameAndType        #99:#100      //  access$0:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V	
+   #99 = Utf8               access$0	
+  #100 = Utf8               (Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V	
+  #101 = String             #102          //  Error	
+  #102 = Utf8               Error	
+  #103 = Methodref          #95.#104      //  home/projects/JavaDisassembly/DisassemblerException.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;Ljava/lang/Exception;)V	
+  #104 = NameAndType        #16:#105      //  &quot;&lt;init&gt;&quot;:(Ljava/lang/String;Ljava/lang/Exception;)V	
+  #105 = Utf8               (Ljava/lang/String;Ljava/lang/Exception;)V	
+  #106 = Methodref          #64.#107      //  home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$1:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;)Ljava/util/concurrent/ExecutorService;	
+  #107 = NameAndType        #108:#109     //  access$1:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;)Ljava/util/concurrent/ExecutorService;	
+  #108 = Utf8               access$1	
+  #109 = Utf8               (Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;)Ljava/util/concurrent/ExecutorService;	
+  #110 = InterfaceMethodref #111.#113     //  java/util/concurrent/ExecutorService.shutdownNow:()Ljava/util/List;	
+  #111 = Class              #112          //  java/util/concurrent/ExecutorService	
+  #112 = Utf8               java/util/concurrent/ExecutorService	
+  #113 = NameAndType        #114:#115     //  shutdownNow:()Ljava/util/List;	
+  #114 = Utf8               shutdownNow	
+  #115 = Utf8               ()Ljava/util/List;	
+  #116 = Class              #117          //  java/lang/Exception	
+  #117 = Utf8               java/lang/Exception	
+  #118 = Utf8               disassembler	
+  #119 = Utf8               Lhome/projects/JavaDisassembly/Disassembler;	
+  #120 = Utf8               data	
+  #121 = Utf8               Lhome/projects/JavaDisassembly/DisassemblyData;	
+  #122 = Utf8               numResults	
+  #123 = Utf8               e	
+  #124 = Utf8               Ljava/lang/Exception;	
+  #125 = Utf8               StackMapTable	
+  #126 = Utf8               SourceFile	
+  #127 = Utf8               ThreadedDisassemblyManager.java	
+  #128 = Utf8               InnerClasses	
+  #129 = Utf8               DisassemblyRunner	
+{	
+  final home.projects.JavaDisassembly.ThreadedDisassemblyManager this$0;	
+    flags: ACC_FINAL, ACC_SYNTHETIC	
+	
+	
+  public home.projects.JavaDisassembly.ThreadedDisassemblyManager$DisassemblyRunner(home.projects.JavaDisassembly.ThreadedDisassemblyManager, java.lang.String, home.projects.JavaDisassembly.DisassemblyDataMap, int, int);	
+    flags: ACC_PUBLIC	
+    Code:	
+      stack=2, locals=6, args_size=6	
+         0: aload_0       	
+         1: aload_1       	
+         2: putfield      #19                 // Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+         5: aload_0       	
+         6: invokespecial #21                 // Method java/lang/Object.&quot;&lt;init&gt;&quot;:()V	
+         9: aload_0       	
+        10: aload_2       	
+        11: putfield      #24                 // Field m_sClass:Ljava/lang/String;	
+        14: aload_0       	
+        15: aload_3       	
+        16: putfield      #26                 // Field m_results:Lhome/projects/JavaDisassembly/DisassemblyDataMap;	
+        19: aload_0       	
+        20: iload         4	
+        22: putfield      #28                 // Field m_iCurrent:I	
+        25: aload_0       	
+        26: iload         5	
+        28: putfield      #30                 // Field m_iTotal:I	
+        31: return        	
+      LineNumberTable:	
+        line 16: 0	
+        line 17: 9	
+        line 18: 14	
+        line 19: 19	
+        line 20: 25	
+        line 21: 31	
+      LocalVariableTable:	
+        Start  Length  Slot  Name   Signature	
+               0      32     0  this   Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner;	
+               0      32     2 sClass   Ljava/lang/String;	
+               0      32     3 results   Lhome/projects/JavaDisassembly/DisassemblyDataMap;	
+               0      32     4 iCurrent   I	
+               0      32     5 iTotal   I	
+	
+  public void run();	
+    flags: ACC_PUBLIC	
+    Code:	
+      stack=5, locals=4, args_size=1	
+         0: aload_0       	
+         1: getfield      #19                 // Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+         4: new           #41                 // class java/lang/StringBuilder	
+         7: dup           	
+         8: ldc           #43                 // String Starting Disassembly 	
+        10: invokespecial #45                 // Method java/lang/StringBuilder.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;)V	
+        13: aload_0       	
+        14: getfield      #28                 // Field m_iCurrent:I	
+        17: invokevirtual #48                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;	
+        20: ldc           #52                 // String  of 	
+        22: invokevirtual #54                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;	
+        25: aload_0       	
+        26: getfield      #30                 // Field m_iTotal:I	
+        29: invokevirtual #48                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;	
+        32: ldc           #57                 // String : 	
+        34: invokevirtual #54                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;	
+        37: aload_0       	
+        38: getfield      #24                 // Field m_sClass:Ljava/lang/String;	
+        41: invokevirtual #54                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;	
+        44: invokevirtual #59                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;	
+        47: invokevirtual #63                 // Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.updateStatusSync:(Ljava/lang/String;)V	
+        50: aload_0       	
+        51: getfield      #19                 // Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+        54: invokevirtual #68                 // Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.getDisassembler:()Lhome/projects/JavaDisassembly/Disassembler;	
+        57: astore_1      	
+        58: aload_1       	
+        59: aload_0       	
+        60: getfield      #19                 // Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+        63: getfield      #72                 // Field home/projects/JavaDisassembly/ThreadedDisassemblyManager.m_config:Lhome/projects/JavaDisassembly/Config;	
+        66: invokevirtual #76                 // Method home/projects/JavaDisassembly/Config.getSourceDirectory:()Ljava/lang/String;	
+        69: aload_0       	
+        70: getfield      #24                 // Field m_sClass:Ljava/lang/String;	
+        73: invokeinterface #81,  3           // InterfaceMethod home/projects/JavaDisassembly/Disassembler.invoke:(Ljava/lang/String;Ljava/lang/String;)Lhome/projects/JavaDisassembly/DisassemblyData;	
+        78: astore_2      	
+        79: aload_0       	
+        80: getfield      #26                 // Field m_results:Lhome/projects/JavaDisassembly/DisassemblyDataMap;	
+        83: aload_0       	
+        84: getfield      #24                 // Field m_sClass:Ljava/lang/String;	
+        87: aload_2       	
+        88: invokevirtual #87                 // Method home/projects/JavaDisassembly/DisassemblyDataMap.setResult:(Ljava/lang/String;Lhome/projects/JavaDisassembly/DisassemblyData;)I	
+        91: istore_3      	
+        92: aload_0       	
+        93: getfield      #19                 // Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+        96: new           #41                 // class java/lang/StringBuilder	
+        99: dup           	
+       100: ldc           #93                 // String Completed Disassembly 	
+       102: invokespecial #45                 // Method java/lang/StringBuilder.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;)V	
+       105: iload_3       	
+       106: invokevirtual #48                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;	
+       109: ldc           #52                 // String  of 	
+       111: invokevirtual #54                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;	
+       114: aload_0       	
+       115: getfield      #30                 // Field m_iTotal:I	
+       118: invokevirtual #48                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;	
+       121: ldc           #57                 // String : 	
+       123: invokevirtual #54                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;	
+       126: aload_0       	
+       127: getfield      #24                 // Field m_sClass:Ljava/lang/String;	
+       130: invokevirtual #54                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;	
+       133: invokevirtual #59                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;	
+       136: invokevirtual #63                 // Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.updateStatusSync:(Ljava/lang/String;)V	
+       139: goto          194	
+       142: astore_2      	
+       143: aload_2       	
+       144: instanceof    #95                 // class home/projects/JavaDisassembly/DisassemblerException	
+       147: ifeq          164	
+       150: aload_0       	
+       151: getfield      #19                 // Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+       154: aload_2       	
+       155: checkcast     #95                 // class home/projects/JavaDisassembly/DisassemblerException	
+       158: invokestatic  #97                 // Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$0:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V	
+       161: goto          181	
+       164: aload_0       	
+       165: getfield      #19                 // Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+       168: new           #95                 // class home/projects/JavaDisassembly/DisassemblerException	
+       171: dup           	
+       172: ldc           #101                // String Error	
+       174: aload_2       	
+       175: invokespecial #103                // Method home/projects/JavaDisassembly/DisassemblerException.&quot;&lt;init&gt;&quot;:(Ljava/lang/String;Ljava/lang/Exception;)V	
+       178: invokestatic  #97                 // Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$0:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;Lhome/projects/JavaDisassembly/DisassemblerException;)V	
+       181: aload_0       	
+       182: getfield      #19                 // Field this$0:Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;	
+       185: invokestatic  #106                // Method home/projects/JavaDisassembly/ThreadedDisassemblyManager.access$1:(Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager;)Ljava/util/concurrent/ExecutorService;	
+       188: invokeinterface #110,  1          // InterfaceMethod java/util/concurrent/ExecutorService.shutdownNow:()Ljava/util/List;	
+       193: pop           	
+       194: return        	
+      Exception table:	
+         from    to  target type	
+            58   139   142   Class java/lang/Exception	
+      LineNumberTable:	
+        line 25: 0	
+        line 26: 50	
+        line 28: 58	
+        line 29: 79	
+        line 30: 92	
+        line 31: 139	
+        line 32: 143	
+        line 33: 150	
+        line 35: 164	
+        line 36: 181	
+        line 38: 194	
+      LocalVariableTable:	
+        Start  Length  Slot  Name   Signature	
+               0     195     0  this   Lhome/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner;	
+              58     137     1 disassembler   Lhome/projects/JavaDisassembly/Disassembler;	
+              79      60     2  data   Lhome/projects/JavaDisassembly/DisassemblyData;	
+              92      47     3 numResults   I	
+             143      51     2     e   Ljava/lang/Exception;	
+      StackMapTable: number_of_entries = 4	
+           frame_type = 255 /* full_frame */	
+          offset_delta = 142	
+          locals = [ class home/projects/JavaDisassembly/ThreadedDisassemblyManager$DisassemblyRunner, class home/projects/JavaDisassembly/Disassembler ]	
+          stack = [ class java/lang/Exception ]	
+           frame_type = 252 /* append */	
+             offset_delta = 21	
+        locals = [ class java/lang/Exception ]	
+           frame_type = 16 /* same */	
+           frame_type = 250 /* chop */	
+          offset_delta = 12	
+	
+}	
+			</pre>
+		</div>
+	</body>
+</html>
