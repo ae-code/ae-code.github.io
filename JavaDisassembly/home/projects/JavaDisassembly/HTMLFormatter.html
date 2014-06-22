@@ -1,9 +1,9 @@
 <!doctype html>
 <html>
 	<head>
-   		<link rel="stylesheet" type="text/css" href="/home/albert/temp/jd/static/style.css">
-   		<script src="/home/albert/temp/jd/static/jquery.js"></script>
-   		<script src="/home/albert/temp/jd/static/script.js"></script>
+   		<link rel="stylesheet" type="text/css" href="../../../static/style.css">
+   		<script src="../../../static/jquery.js"></script>
+   		<script src="../../../static/script.js"></script>
    		
  		<title>home/projects/JavaDisassembly/HTMLFormatter.class</title>
 	</head>
@@ -11,9 +11,9 @@
 		<div class="container">
 			<h1 class="class_header">home/projects/JavaDisassembly/HTMLFormatter.class</h1>
 			<table class="stats_table">
-				<tr><td class="stats_header">Last Modified:</td><td>Jun 17, 2014</td></tr>
-				<tr><td class="stats_header">Size:</td><td>309 bytes</td></tr>
-				<tr><td class="stats_header">MD5 Hash:</td><td>1fd0e486c0faa284fa6419940686d692</td></tr>
+				<tr><td class="stats_header">Last Modified:</td><td>Jun 21, 2014</td></tr>
+				<tr><td class="stats_header">Size:</td><td>359 bytes</td></tr>
+				<tr><td class="stats_header">MD5 Hash:</td><td>374692260ab0c5ac0d3c972ec9739a54</td></tr>
 				<tr><td class="stats_header">Source:</td><td>HTMLFormatter.java</td></tr>
 			</table>
 			<br>
@@ -74,10 +74,20 @@
 				<tr class="constant_row">
 					<td class="constant_index">10</td>
 					<td class="constant_type">Utf8</td>
-					<td class="constant_value" title=""><span class="">SourceFile</span></td>
+					<td class="constant_value" title=""><span class="">setRelativePath</span></td>
 				</tr>
 				<tr class="constant_row">
 					<td class="constant_index">11</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">(Ljava/lang/String;)V</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">12</td>
+					<td class="constant_type">Utf8</td>
+					<td class="constant_value" title=""><span class="">SourceFile</span></td>
+				</tr>
+				<tr class="constant_row">
+					<td class="constant_index">13</td>
 					<td class="constant_type">Utf8</td>
 					<td class="constant_value" title=""><span class="">HTMLFormatter.java</span></td>
 				</tr>
@@ -96,11 +106,20 @@
 				<a name="funcs"></a>
 				<ul class="listing_list">
 					<li class="listing"><a href="#f0">public abstract void formatHTML(home.projects.JavaDisassembly.DisassemblyData, java.io.Writer) throws home.projects.JavaDisassembly.HTMLGenerationException;</a></li>
+					<li class="listing"><a href="#f1">public abstract void setRelativePath(java.lang.String);</a></li>
 				</ul>
 				<br>
 				<div class="function">
 					<a name="f0"></a>
 					<div class="function_header">public abstract void formatHTML(home.projects.JavaDisassembly.DisassemblyData, java.io.Writer) throws home.projects.JavaDisassembly.HTMLGenerationException;</div>
+					<table class="code">
+					</table>
+					<a class="back_link" href="#funcs">&#8593; Back to List</a>
+				</div>
+				<br>
+				<div class="function">
+					<a name="f1"></a>
+					<div class="function_header">public abstract void setRelativePath(java.lang.String);</div>
 					<table class="code">
 					</table>
 					<a class="back_link" href="#funcs">&#8593; Back to List</a>
@@ -113,8 +132,8 @@
 			</div>
 			<pre>
 Classfile /home/albert/projects/JavaDisassembly/target/classes/home/projects/JavaDisassembly/HTMLFormatter.class	
-  Last modified Jun 17, 2014; size 309 bytes	
-  MD5 checksum 1fd0e486c0faa284fa6419940686d692	
+  Last modified Jun 21, 2014; size 359 bytes	
+  MD5 checksum 374692260ab0c5ac0d3c972ec9739a54	
   Compiled from &quot;HTMLFormatter.java&quot;	
 interface home.projects.JavaDisassembly.HTMLFormatter	
   SourceFile: &quot;HTMLFormatter.java&quot;	
@@ -131,13 +150,18 @@ Constant pool:
    #7 = Utf8               Exceptions	
    #8 = Class              #9             //  home/projects/JavaDisassembly/HTMLGenerationException	
    #9 = Utf8               home/projects/JavaDisassembly/HTMLGenerationException	
-  #10 = Utf8               SourceFile	
-  #11 = Utf8               HTMLFormatter.java	
+  #10 = Utf8               setRelativePath	
+  #11 = Utf8               (Ljava/lang/String;)V	
+  #12 = Utf8               SourceFile	
+  #13 = Utf8               HTMLFormatter.java	
 {	
   public abstract void formatHTML(home.projects.JavaDisassembly.DisassemblyData, java.io.Writer) throws home.projects.JavaDisassembly.HTMLGenerationException;	
     flags: ACC_PUBLIC, ACC_ABSTRACT	
     Exceptions:	
       throws home.projects.JavaDisassembly.HTMLGenerationException	
+	
+  public abstract void setRelativePath(java.lang.String);	
+    flags: ACC_PUBLIC, ACC_ABSTRACT	
 }	
 			</pre>
 		</div>
